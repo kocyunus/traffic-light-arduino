@@ -6,7 +6,8 @@ Modular 3D-printed Arduino traffic light • red-yellow-green-yellow loop • ze
 > Press-fit only — no screws or glue.
 
 ![Assembled unit](images/assembled_front.png)
-📹 [Demo Videosunu Buradan İzleyin](https://youtu.be/r__On8B-lRI)
+🚧 [Watch the 90s demo video showing the build process](https://youtu.be/r__On8B-lRI)
+
 
 
 ## Features
