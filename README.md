@@ -8,11 +8,11 @@
 ---
 
 ## Features
-- **Modular design** — every part supplied as both  
-  *a single “plate” STL* **and** *separate STLs* (`/hardware/stl/`)
-- **Non-blocking firmware** (pure `millis()` timing) — easy to extend
-- **Safe LED drive** — 220 Ω series resistors prevent over-current
-- Fits an Arduino Uno or Nano inside the pole
+- **Modular design** — STL set comes in two flavours  
+  *one-shot build plate* **and** *separate STLs* (now **3 files**)
+- **Non-blocking firmware** (`millis()` timing)
+- **Safe LED drive** — 220 Ω series resistors
+- Base and pole are a **single print** for extra rigidity
 
 ---
 
@@ -24,22 +24,20 @@
 | 3   | LED 5 mm (red / yellow / green)    | Diffused or clear    |
 | 3   | 220 Ω resistor, ¼ W                | One per LED          |
 | —   | Jumper wires                       | Male–male            |
-| 1 set | 3D-printed parts                 | **Choose one:**<br>• `all-in-one_plate.stl`<br>• individual STLs |
+| 1 set | 3D-printed parts                 | Choose:<br>• `all-in-one_plate.stl`<br>• `base_pole.stl`, `body.stl`, `front_panel.stl`, `rear_cover.stl` |
 
 ---
 
 ## Printing
 
-- **Fast route:**  
-  Drag `all-in-one_plate.stl` into your slicer, slice with your normal PLA profile and print — no further tweaks required.  
-- **Custom route:**  
-  Use the individual STLs if you want multi-colour prints, different layer heights, or to re-orient parts independently.
-
-The model is support-friendly and tolerant of various machines & layer heights.
+- **Quick print:** slice `all-in-one_plate.stl` with your usual PLA profile.  
+- **Custom print:** use the individual files if you want multi-colour or different orientations.  
+  *Note:* `base_pole.stl` is already oriented flat in the plate; no supports needed.
 
 ---
 
 ## Wiring & Pinout
+
 
 LED Red → D0 ─┐
 LED Yellow → D1 ┼─ 220 Ω → GND
@@ -58,3 +56,14 @@ LED Green → D2 ┘
 Tools ▸ Board  : “Arduino Uno”
 Tools ▸ Port   : COMx / /dev/ttyUSBx
 Upload (Ctrl+U)
+
+hardware/stl/
+  ├─ all-in-one_plate.stl
+  ├─ base_pole.stl
+  ├─ body.stl
+  ├─ front_panel.stl
+  └─ rear_cover.stl
+firmware/          traffic_light.ino
+docs/assembly.md   step-by-step guide
+images/            photos / screenshots
+
