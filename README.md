@@ -3,7 +3,7 @@
 > Red → Yellow → Green → **Yellow** → back to Red  
 > Press-fit only — no screws or glue.
 
-![Assembled unit](images/assembled_front.jpg)
+![Assembled unit](images/assembled_front.png)
 
 ---
 
