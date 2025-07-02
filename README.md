@@ -47,17 +47,7 @@ LED Green → D2 ┘
 > **Using Serial?**  
 > Pins 0-1 share the USB RX/TX lines. If you need `Serial.print()`, move LEDs to Pins 8-9-10 and update `LED_PINS[]` in `firmware/traffic_light.ino`.
 
----
-Folder Structure
-hardware/stl/
-  ├─ all-in-one_plate.stl
-  ├─ base_pole.stl
-  ├─ body.stl
-  ├─ front_panel.stl
-  └─ rear_cover.stl
-firmware/          traffic_light.ino
-docs/assembly.md   step-by-step guide
-images/   
+
 
 ## Uploading the Firmware
 
@@ -66,6 +56,3 @@ images/
 Tools ▸ Board  : “Arduino Uno”
 Tools ▸ Port   : COMx / /dev/ttyUSBx
 Upload (Ctrl+U)
-
-         photos / screenshots
-
