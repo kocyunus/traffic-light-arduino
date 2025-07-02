@@ -57,6 +57,7 @@ Tools ▸ Board  : “Arduino Uno”
 Tools ▸ Port   : COMx / /dev/ttyUSBx
 Upload (Ctrl+U)
 
+Folder Structure
 hardware/stl/
   ├─ all-in-one_plate.stl
   ├─ base_pole.stl
