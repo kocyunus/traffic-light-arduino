@@ -1,3 +1,5 @@
+Modular 3D-printed Arduino traffic light • red-yellow-green-yellow loop • zero screws/glue
+
 # 3D-Printed Arduino Traffic Light
 
 > Red → Yellow → Green → **Yellow** → back to Red  
